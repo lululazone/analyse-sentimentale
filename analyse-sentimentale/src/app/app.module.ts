@@ -7,11 +7,13 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MainComponentComponent } from './main-component/main-component.component';
+import { SecondComponentComponent } from './second-component/second-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponentComponent,
+    SecondComponentComponent,
   ],
   imports: [
     BrowserModule,
