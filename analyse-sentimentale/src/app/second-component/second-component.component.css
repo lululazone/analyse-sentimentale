@@ -1,6 +1,6 @@
 .textzone{
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 10%;
     padding-bottom: 20%;
     text-align: left;
     padding: auto;
@@ -24,7 +24,6 @@ table{
     height: 90%;
     /* mettre les élément au millieu*/
 
-    text-align: center;
     background-color: #f5f5f5;
 }
 td {
@@ -66,20 +65,3 @@ td {
   outline: 0;
 }
 
-/* pie chart */
-.piechart {
-    
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-image: conic-gradient(
-        pink 0 30%, 
-        lightblue 0 70%);
-}
-
-body,
-.piechart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
